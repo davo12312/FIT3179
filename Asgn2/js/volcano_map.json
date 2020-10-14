@@ -25,8 +25,21 @@
           "mark": {
             "type": "circle",
             "tooltip": {"content": "data"}
-          },       
-         }
+          },
+          "encoding": {
+            "size": {"field": "Elevation (Meters)", 
+                     "type": "quantitative",
+                     "scale": {
+                          "domain": [-4200, 6880]
+                        }},
+            "color": {"field": "depth", 
+                      "type": "categorical",
+                      "scale":{
+                          "scheme":"category10"
+                      }          
+            }
+          }
+        }
       ]
     }
   ]
