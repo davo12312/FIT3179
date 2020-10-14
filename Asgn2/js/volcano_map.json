@@ -32,7 +32,7 @@
                      "scale": {
                           "domain": [-4200, 6880]
                         }},
-            "color": {"field": "depth", 
+            "color": {"field": "Country", 
                       "type": "categorical",
                       "scale":{
                           "scheme":"category10"
