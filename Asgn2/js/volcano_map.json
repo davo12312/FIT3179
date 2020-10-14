@@ -26,9 +26,7 @@
             "type": "circle",
             "tooltip": {"content": "data"}
           },       
-            }
-          }
-        }
+         }
       ]
     }
   ]
