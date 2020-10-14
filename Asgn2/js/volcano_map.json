@@ -33,7 +33,7 @@
                           "domain": [-4200, 6880]
                         }},
             "color": {"field": "Country", 
-                      "type": "categorical",
+                      "type": "nominal",
                       "scale":{
                           "scheme":"category10"
                       }          
@@ -43,4 +43,5 @@
       ]
     }
   ]
+}
 }
