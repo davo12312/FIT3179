@@ -31,7 +31,7 @@
     "color": {
       "field": "shootings",
       "type": "quantitative",
-      "scale": {"scheme": "blueorange"}
+      "scale": {"scheme": "reds"}
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "State"},
