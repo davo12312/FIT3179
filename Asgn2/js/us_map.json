@@ -4,14 +4,14 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/js/us_states.json",
+    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/js/USA.json",
     "format": {
           "type": "topojson",
-          "feature": "us_states"
+          "feature": "states"
         }
   },
   "transform": [{
-      "lookup": "properties.NAME",
+      "lookup": "properties.name",
       "from": {
         "data": {
           "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/data/state_shootings.csv"
@@ -22,7 +22,7 @@
     }
   ],
   "projection": {
-    "type": "equirectangular"
+    "type": "albersUSA"
   },
   "mark": {
     "type": "geoshape"
@@ -34,7 +34,7 @@
       "scale": {"scheme": "reds"}
     },
     "tooltip": [
-      {"field": "properties.NAME", "type": "nominal", "title": "State"},
+      {"field": "properties.name", "type": "nominal", "title": "State"},
       {"field": "shootings", "type": "quantitative"}
     ]
   }
