@@ -19,7 +19,7 @@
         "key": "State",
         "fields": ["shootings"]
       }
-    },
+    }
   ],
   "projection": {
     "type": "equirectangular"
@@ -38,5 +38,4 @@
       {"field": "shootings", "type": "quantitative"}
     ]
   }
-
 }
