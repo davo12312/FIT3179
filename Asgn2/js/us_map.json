@@ -4,14 +4,14 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/js/US_states.json",
+    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/js/us_states.json",
     "format": {
           "type": "topojson",
-          "feature": "US_states"
+          "feature": "us_states"
         }
   },
   "transform": [{
-      "lookup": "properties.name",
+      "lookup": "properties.NAME",
       "from": {
         "data": {
           "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/data/state_shootings.csv"
@@ -34,7 +34,7 @@
       "scale": {"scheme": "reds"}
     },
     "tooltip": [
-      {"field": "properties.name", "type": "nominal", "title": "State"},
+      {"field": "properties.NAME", "type": "nominal", "title": "State"},
       {"field": "shootings", "type": "quantitative"}
     ]
   }
