@@ -1,46 +1,42 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "US Police Shootings (2015 - 2020)",
   "width": 800,
-  "height": 500,
-  "title": "US Police Shootings 2015 to 2020",
-  "projection": {"type": "equalEarth"},
-  "layer": [
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/js/US_states.json",
-        "format": {"type": "topojson", "feature": "US_states"}
-      },
-      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/data/shootings.csv"
-      },
-      "encoding": {
-        "longitude": {"field": "Longitude", "type": "quantitative"},
-        "latitude": {"field": "Latitude", "type": "quantitative"}
-      },
-      "layer": [
-        {
-          "mark": {
-            "type": "circle",
-            "tooltip": {"content": "data"}
-          },
-          "encoding": {
-            "size": {"field": "Elevation (Meters)", 
-                     "type": "quantitative",
-                     "scale": {
-                          "domain": [-4200, 6880]
-                        }},
-            "color": {"field": "Country", 
-                      "type": "nominal",
-                      "scale":{
-                          "scheme":"category10"
-                      }          
-            }
-          }
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/js/US_states.json",
+    "format": {
+          "type": "topojson",
+          "feature": "US_states"
         }
-      ]
-    }
-  ]
+  },
+  "transform": [{
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/data/state_shootings.csv"
+        },
+        "key": "State",
+        "fields": ["shootings"]
+      }
+    },
+  ],
+  "projection": {
+    "type": "equirectangular"
+  },
+  "mark": {
+    "type": "geoshape"
+    },
+  "encoding": {
+    "color": {
+      "field": "shootings",
+      "type": "quantitative",
+      "scale": {"scheme": "reds"}
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "State"},
+      {"field": "shootings", "type": "quantitative"}
+    ]
+  }
+
 }
