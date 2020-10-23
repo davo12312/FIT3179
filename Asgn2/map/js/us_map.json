@@ -4,7 +4,7 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/js/USA.json",
+    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/map/js/USA.json",
     "format": {
           "type": "topojson",
           "feature": "states"
@@ -14,7 +14,7 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/data/state_shootings.csv"
+          "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/map/data/state_shootings.csv"
         },
         "key": "State",
         "fields": ["shootings"]
