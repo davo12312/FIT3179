@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "height": 500,
+  "width": 800,
+  "title": "Average Police Shootings in USA 2015 - 2020",
+  "data": {"url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/line_chart/data/date_shoot.csv"},
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "title": "Month",
+      "sort": {"field": "index"}
+    },
+    "y": {
+      "field": "mean", 
+      "type": "quantitative",
+      "title": "Average Police Shootings",
+      "scale": {"domain": [0, 5]}
+    },
+    "tooltip": [
+      {"field": "date", "title": "Month"},
+      {"field": "mean", "title": "Ave Shootings", "format": ".2f"}
+    ]
+  }
+}
