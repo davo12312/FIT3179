@@ -1,1 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "height": 500,
+  "width": 800,
+  "title": "Average Police Shootings in USA 2015 - 2020",
+  "data": {"url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/interactive_graph/data/state_shootings.csv"},
+
+  "mark": {"type": "point"},
+  "encoding": {
+    "x": {
+      "field": "Population",
+      "type": "quantitative",
+      "title": "Population",
+      "scale": {"domain": [0, 40000000]}
+    },
+    "y": {
+      "field": "Shootings per 100,000", 
+      "type": "quantitative",
+      "title": "Police Shootings per 100,000",
+      "scale": {"domain": [0, 5]}
+    },
+    "tooltip": [
+      {"field": "State", "title": "State"},
+      {"field": "Population", "title": "Population", "format": ","},
+      {"field": "Shootings per 100,000", "title": "Shootings per 100,000", "format": ".2f"}
+    ]
+  }
+}
+
 
