@@ -4,8 +4,17 @@
   "width": 800,
   "title": "Average Police Shootings in USA 2015 - 2020",
   "data": {"url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/interactive_graph/data/state_shootings.csv"},
-
-  "mark": {"type": "point"},
+  "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["State"],
+          "bind": "legend"
+        }
+  },
+  "mark": {
+    "type": "circle",
+    "color": "darkred"
+    },
   "encoding": {
     "x": {
       "field": "Population",
@@ -19,6 +28,10 @@
       "title": "Police Shootings per 100,000",
       "scale": {"domain": [0, 5]}
     },
+    "size": {
+      "field": "Population",
+      "type": "quantitative"
+    },
     "tooltip": [
       {"field": "State", "title": "State"},
       {"field": "Population", "title": "Population", "format": ","},
@@ -26,3 +39,4 @@
     ]
   }
 }
+
