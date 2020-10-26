@@ -3,40 +3,202 @@
   "height": 500,
   "width": 800,
   "title": "Average Police Shootings in USA 2015 - 2020",
-  "data": {"url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/interactive_graph/data/state_shootings.csv"},
-  "selection": {
-        "continent_highlight": {
-          "type": "multi",
-          "fields": ["State"],
-          "bind": "legend"
-        }
-  },
-  "mark": {
-    "type": "circle",
-    "color": "darkred"
+  "data": {"url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/interactive_graph/data/state_pop.csv"},
+  "params": [
+     {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+      "input": "range",
+      "min": 0,
+      "max": 16000000,
+      "step": 1000000,
+      "name": "Minimum Population: "
+      }
     },
+    {
+      "name": "State_selection",
+      "bind": {
+      "input": "select",
+      "options": [
+        null,
+        "Alabama",
+        "Alaska",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "District of Columbia",
+        "Florida",
+        "Georgia",
+        "Hawaii",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey",
+        "New Mexico",
+        "New York",
+        "North Carolina",
+        "North Dakota",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Pennsylvania",
+        "Rhode Island",
+        "South Carolina",
+        "South Dakota",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virginia",
+        "Washington",
+        "West Virginia",
+        "Wisconsin",
+        "Wyoming"
+      ],
+        "labels":[
+          "Show All",
+          "Alabama",
+          "Alaska",
+          "Arizona",
+          "Arkansas",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Delaware",
+          "District of Columbia",
+          "Florida",
+          "Georgia",
+          "Hawaii",
+          "Idaho",
+          "Illinois",
+          "Indiana",
+          "Iowa",
+          "Kansas",
+          "Kentucky",
+          "Louisiana",
+          "Maine",
+          "Montana",
+          "Nebraska",
+          "Nevada",
+          "New Hampshire",
+          "New Jersey",
+          "New Mexico",
+          "New York",
+          "North Carolina",
+          "North Dakota",
+          "Ohio",
+          "Oklahoma",
+          "Oregon",
+          "Maryland",
+          "Massachusetts",
+          "Michigan",
+          "Minnesota",
+          "Mississippi",
+          "Missouri",
+          "Pennsylvania",
+          "Rhode Island",
+          "South Carolina",
+          "South Dakota",
+          "Tennessee",
+          "Texas",
+          "Utah",
+          "Vermont",
+          "Virginia",
+          "Washington",
+          "West Virginia",
+          "Wisconsin",
+          "Wyoming"
+        ],
+          "name": "State Selection: "
+      }
+    }
+ ],
+   "transform": [
+      {"filter": "State_selection == null || datum.State == State_selection"},
+      {"filter": "datum.Population > Population_Above"}
+   ],
+  "selection": {
+      "continent_highlight": {
+      "type": "multi",
+      "fields": ["Race"],
+      "bind": "legend"
+      }
+  },
+  "mark": {"type": "circle"},
   "encoding": {
     "x": {
       "field": "Population",
       "type": "quantitative",
-      "title": "Population",
-      "scale": {"domain": [0, 40000000]}
+      "title": "Ethnicity Population",
+      "scale": {"domain": [0, 16000000]}
     },
     "y": {
-      "field": "Shootings per 100,000", 
+      "field": "Shootings per capita", 
       "type": "quantitative",
-      "title": "Police Shootings per 100,000",
-      "scale": {"domain": [0, 5]}
+      "title": "Number of Shootings",
+      "scale": {"domain": [0, 3.5]}
+    },
+    "color": {
+      "field": "Race",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Asian",
+          "Black",
+          "Hispanic",
+          "Native",
+          "White"
+        ],
+        "range": [
+          "#e41a1c",
+          "#984ea3",
+          "#ff7f00",
+          "#a6cee3",
+          "#377eb8"
+        ]
+      }
+    },
+    "opacity": {
+        "condition": {"selection": "continent_highlight", "value": 0.8},
+        "value": 0.1
     },
     "size": {
       "field": "Population",
-      "type": "quantitative"
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [1000000, 10000000],
+        "range": [50, 100, 150]
+      },
+      "legend": {"format": ".1s"}
     },
     "tooltip": [
       {"field": "State", "title": "State"},
-      {"field": "Population", "title": "Population", "format": ","},
-      {"field": "Shootings per 100,000", "title": "Shootings per 100,000", "format": ".2f"}
+      {"field": "Race", "title": "Ethnicity"},
+      {"field": "Population", "title": "Ethnicity Population in State", "format": ","},
+      {"field": "State Population", "title": "Total State Population", "format": ","},
+      {"field": "Shootings per capita", "title": "Shootings per Capita", "format": ".2f"}
     ]
   }
 }
+
 
