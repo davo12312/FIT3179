@@ -1,187 +1,187 @@
-State,Race,Count,Population
-Alabama,Black,31,1302295
-Alabama,Hispanic,1,201970
-Alabama,White,63,3191450
-Alaska,Asian,2,48569
-Alaska,Black,3,21192
-Alaska,Native,9,105146
-Alaska,White,22,448081
-Arizona,Black,17,290379
-Arizona,Hispanic,83,2202173
-Arizona,Native,13,274496
-Arizona,White,109,3836639
-Arkansas,Asian,1,46583
-Arkansas,Black,26,455500
-Arkansas,White,46,2173307
-California,Asian,29,5679986
-California,Black,122,2164239
-California,Hispanic,316,15477306
-California,Native,4,147880
-California,White,221,14616636
-Colorado,Asian,5,176176
-Colorado,Black,18,219500
-Colorado,Hispanic,48,1206724
-Colorado,Native,4,32102
-Colorado,White,91,3822055
-Connecticut,Black,3,354320
-Connecticut,Hispanic,6,578833
-Connecticut,White,11,2393694
-Delaware,Black,5,206690
-Delaware,White,5,597917
-District of Columbia,Black,12,314705
-District of Columbia,White,1,253416
-Florida,Asian,1,578136
-Florida,Black,111,3224452
-Florida,Hispanic,51,5370860
-Florida,White,156,11288419
-Georgia,Asian,4,408067
-Georgia,Black,71,3245371
-Georgia,Hispanic,9,1001472
-Georgia,White,77,5487048
-Hawaii,Asian,9,532881
-Hawaii,Black,1,22629
-Hawaii,Hispanic,1,150125
-Hawaii,White,3,310584
-Idaho,Black,1,10947
-Idaho,Hispanic,5,213619
-Idaho,Native,1,19136
-Idaho,White,30,1407302
-Illinois,Black,58,1790512
-Illinois,Hispanic,13,2206927
-Illinois,White,28,7834272
-Indiana,Black,30,613080
-Indiana,Hispanic,4,461618
-Indiana,White,57,5278785
-Iowa,Black,7,103989
-Iowa,White,24,2701250
-Kansas,Black,6,161148
-Kansas,Hispanic,8,345510
-Kansas,Native,1,17617
-Kansas,White,34,2210739
-Kentucky,Asian,1,64381
-Kentucky,Black,15,355829
-Kentucky,Hispanic,3,155163
-Kentucky,Native,1,6882
-Kentucky,White,67,3769995
-Louisiana,Asian,2,83959
-Louisiana,Black,60,1505991
-Louisiana,Hispanic,1,243620
-Louisiana,White,39,2739086
-Maine,Black,1,15761
-Maine,Hispanic,1,21899
-Maine,White,18,1247090
-Maryland,Asian,1,389297
-Maryland,Black,47,1776692
-Maryland,Hispanic,3,612709
-Maryland,White,26,3066146
-Massachusetts,Black,8,477846
-Massachusetts,Hispanic,7,811292
-Massachusetts,White,17,4906564
-Michigan,Asian,1,306376
-Michigan,Black,24,1359264
-Michigan,Hispanic,2,504398
-Michigan,White,43,7476534
-Minnesota,Asian,3,272228
-Minnesota,Black,10,356949
-Minnesota,Hispanic,3,296666
-Minnesota,Native,4,53674
-Minnesota,White,37,4455056
-Mississippi,Asian,1,27467
-Mississippi,Black,23,1130323
-Mississippi,Hispanic,1,86035
-Mississippi,White,36,1688447
-Missouri,Asian,1,123227
-Missouri,Black,48,694270
-Missouri,Hispanic,3,255803
-Missouri,White,72,4854821
-Montana,Native,4,62126
-Montana,White,25,906221
-Nebraska,Black,5,87147
-Nebraska,Hispanic,2,209917
-Nebraska,Native,1,12823
-Nebraska,White,16,1517634
-Nevada,Asian,2,249834
-Nevada,Black,15,265472
-Nevada,Hispanic,28,864663
-Nevada,Native,1,27991
-Nevada,White,39,1462301
-New Hampshire,White,12,1212790
-New Jersey,Asian,1,882064
-New Jersey,Black,30,1148321
-New Jersey,Hispanic,8,1840433
-New Jersey,White,21,4939479
-New Mexico,Black,1,38022
-New Mexico,Hispanic,64,1018344
-New Mexico,Native,2,182991
-New Mexico,White,26,780688
-New York,Asian,1,1718948
-New York,Black,46,2846481
-New York,Hispanic,8,3811654
-New York,White,35,10936578
-North Carolina,Asian,1,293050
-North Carolina,Black,51,2175617
-North Carolina,Hispanic,8,962466
-North Carolina,White,88,6472902
-North Dakota,Native,5,40745
-North Dakota,White,6,637291
-Ohio,Asian,2,256437
-Ohio,Black,56,1421030
-Ohio,Hispanic,1,436762
-Ohio,White,84,9204374
-Oklahoma,Asian,3,84404
-Oklahoma,Black,32,283068
-Oklahoma,Hispanic,9,417708
-Oklahoma,Native,7,288580
-Oklahoma,White,100,2576937
-Oregon,Black,7,74345
-Oregon,Hispanic,6,540924
-Oregon,White,63,3132752
-Pennsylvania,Black,42,1367815
-Pennsylvania,Hispanic,6,938428
-Pennsylvania,White,47,9780941
-Rhode Island,Black,2,57196
-Rhode Island,Hispanic,1,163346
-Rhode Island,White,1,763670
-South Carolina,Asian,1,74889
-South Carolina,Black,27,1344741
-South Carolina,Hispanic,2,285990
-South Carolina,White,50,3197812
-South Dakota,Asian,1,10612
-South Dakota,Native,3,74563
-South Dakota,White,10,715927
-Tennessee,Asian,1,118312
-Tennessee,Black,31,1115187
-Tennessee,Hispanic,3,361203
-Tennessee,White,89,4962226
-Texas,Asian,6,1344963
-Texas,Black,99,3330204
-Texas,Hispanic,142,11158751
-Texas,Native,1,71859
-Texas,White,175,11855092
-Utah,Black,7,35689
-Utah,Hispanic,12,434290
-Utah,Native,2,30073
-Utah,White,36,2428495
-Vermont,Native,1,1971
-Vermont,White,7,578706
-Virginia,Asian,1,539382
-Virginia,Black,40,1595039
-Virginia,Hispanic,4,790662
-Virginia,Native,1,20568
-Virginia,White,45,5226540
-Washington,Asian,9,625939
-Washington,Black,21,262211
-Washington,Hispanic,21,940792
-Washington,Native,7,75535
-Washington,White,66,5077103
-West Virginia,Asian,1,13695
-West Virginia,Black,8,71358
-West Virginia,White,37,1670509
-Wisconsin,Asian,2,158583
-Wisconsin,Black,20,362314
-Wisconsin,Hispanic,6,397847
-Wisconsin,Native,4,44664
-Wisconsin,White,56,4706315
-Wyoming,Hispanic,2,58122
-Wyoming,Native,2,12341
-Wyoming,White,9,486586
+"State","Race","Count","Population"
+"Alabama","Black",31,1302295
+"Alabama","Hispanic",1,201970
+"Alabama","White",63,3191450
+"Alaska","Asian",2,48569
+"Alaska","Black",3,21192
+"Alaska","Native",9,105146
+"Alaska","White",22,448081
+"Arizona","Black",17,290379
+"Arizona","Hispanic",83,2202173
+"Arizona","Native",13,274496
+"Arizona","White",109,3836639
+"Arkansas","Asian",1,46583
+"Arkansas","Black",26,455500
+"Arkansas","White",46,2173307
+"California","Asian",29,5679986
+"California","Black",122,2164239
+"California","Hispanic",316,15477306
+"California","Native",4,147880
+"California","White",221,14616636
+"Colorado","Asian",5,176176
+"Colorado","Black",18,219500
+"Colorado","Hispanic",48,1206724
+"Colorado","Native",4,32102
+"Colorado","White",91,3822055
+"Connecticut","Black",3,354320
+"Connecticut","Hispanic",6,578833
+"Connecticut","White",11,2393694
+"Delaware","Black",5,206690
+"Delaware","White",5,597917
+"District of Columbia","Black",12,314705
+"District of Columbia","White",1,253416
+"Florida","Asian",1,578136
+"Florida","Black",111,3224452
+"Florida","Hispanic",51,5370860
+"Florida","White",156,11288419
+"Georgia","Asian",4,408067
+"Georgia","Black",71,3245371
+"Georgia","Hispanic",9,1001472
+"Georgia","White",77,5487048
+"Hawaii","Asian",9,532881
+"Hawaii","Black",1,22629
+"Hawaii","Hispanic",1,150125
+"Hawaii","White",3,310584
+"Idaho","Black",1,10947
+"Idaho","Hispanic",5,213619
+"Idaho","Native",1,19136
+"Idaho","White",30,1407302
+"Illinois","Black",58,1790512
+"Illinois","Hispanic",13,2206927
+"Illinois","White",28,7834272
+"Indiana","Black",30,613080
+"Indiana","Hispanic",4,461618
+"Indiana","White",57,5278785
+"Iowa","Black",7,103989
+"Iowa","White",24,2701250
+"Kansas","Black",6,161148
+"Kansas","Hispanic",8,345510
+"Kansas","Native",1,17617
+"Kansas","White",34,2210739
+"Kentucky","Asian",1,64381
+"Kentucky","Black",15,355829
+"Kentucky","Hispanic",3,155163
+"Kentucky","Native",1,6882
+"Kentucky","White",67,3769995
+"Louisiana","Asian",2,83959
+"Louisiana","Black",60,1505991
+"Louisiana","Hispanic",1,243620
+"Louisiana","White",39,2739086
+"Maine","Black",1,15761
+"Maine","Hispanic",1,21899
+"Maine","White",18,1247090
+"Maryland","Asian",1,389297
+"Maryland","Black",47,1776692
+"Maryland","Hispanic",3,612709
+"Maryland","White",26,3066146
+"Massachusetts","Black",8,477846
+"Massachusetts","Hispanic",7,811292
+"Massachusetts","White",17,4906564
+"Michigan","Asian",1,306376
+"Michigan","Black",24,1359264
+"Michigan","Hispanic",2,504398
+"Michigan","White",43,7476534
+"Minnesota","Asian",3,272228
+"Minnesota","Black",10,356949
+"Minnesota","Hispanic",3,296666
+"Minnesota","Native",4,53674
+"Minnesota","White",37,4455056
+"Mississippi","Asian",1,27467
+"Mississippi","Black",23,1130323
+"Mississippi","Hispanic",1,86035
+"Mississippi","White",36,1688447
+"Missouri","Asian",1,123227
+"Missouri","Black",48,694270
+"Missouri","Hispanic",3,255803
+"Missouri","White",72,4854821
+"Montana","Native",4,62126
+"Montana","White",25,906221
+"Nebraska","Black",5,87147
+"Nebraska","Hispanic",2,209917
+"Nebraska","Native",1,12823
+"Nebraska","White",16,1517634
+"Nevada","Asian",2,249834
+"Nevada","Black",15,265472
+"Nevada","Hispanic",28,864663
+"Nevada","Native",1,27991
+"Nevada","White",39,1462301
+"New Hampshire","White",12,1212790
+"New Jersey","Asian",1,882064
+"New Jersey","Black",30,1148321
+"New Jersey","Hispanic",8,1840433
+"New Jersey","White",21,4939479
+"New Mexico","Black",1,38022
+"New Mexico","Hispanic",64,1018344
+"New Mexico","Native",2,182991
+"New Mexico","White",26,780688
+"New York","Asian",1,1718948
+"New York","Black",46,2846481
+"New York","Hispanic",8,3811654
+"New York","White",35,10936578
+"North Carolina","Asian",1,293050
+"North Carolina","Black",51,2175617
+"North Carolina","Hispanic",8,962466
+"North Carolina","White",88,6472902
+"North Dakota","Native",5,40745
+"North Dakota","White",6,637291
+"Ohio","Asian",2,256437
+"Ohio","Black",56,1421030
+"Ohio","Hispanic",1,436762
+"Ohio","White",84,9204374
+"Oklahoma","Asian",3,84404
+"Oklahoma","Black",32,283068
+"Oklahoma","Hispanic",9,417708
+"Oklahoma","Native",7,288580
+"Oklahoma","White",100,2576937
+"Oregon","Black",7,74345
+"Oregon","Hispanic",6,540924
+"Oregon","White",63,3132752
+"Pennsylvania","Black",42,1367815
+"Pennsylvania","Hispanic",6,938428
+"Pennsylvania","White",47,9780941
+"Rhode Island","Black",2,57196
+"Rhode Island","Hispanic",1,163346
+"Rhode Island","White",1,763670
+"South Carolina","Asian",1,74889
+"South Carolina","Black",27,1344741
+"South Carolina","Hispanic",2,285990
+"South Carolina","White",50,3197812
+"South Dakota","Asian",1,10612
+"South Dakota","Native",3,74563
+"South Dakota","White",10,715927
+"Tennessee","Asian",1,118312
+"Tennessee","Black",31,1115187
+"Tennessee","Hispanic",3,361203
+"Tennessee","White",89,4962226
+"Texas","Asian",6,1344963
+"Texas","Black",99,3330204
+"Texas","Hispanic",142,11158751
+"Texas","Native",1,71859
+"Texas","White",175,11855092
+"Utah","Black",7,35689
+"Utah","Hispanic",12,434290
+"Utah","Native",2,30073
+"Utah","White",36,2428495
+"Vermont","Native",1,1971
+"Vermont","White",7,578706
+"Virginia","Asian",1,539382
+"Virginia","Black",40,1595039
+"Virginia","Hispanic",4,790662
+"Virginia","Native",1,20568
+"Virginia","White",45,5226540
+"Washington","Asian",9,625939
+"Washington","Black",21,262211
+"Washington","Hispanic",21,940792
+"Washington","Native",7,75535
+"Washington","White",66,5077103
+"West Virginia","Asian",1,13695
+"West Virginia","Black",8,71358
+"West Virginia","White",37,1670509
+"Wisconsin","Asian",2,158583
+"Wisconsin","Black",20,362314
+"Wisconsin","Hispanic",6,397847
+"Wisconsin","Native",4,44664
+"Wisconsin","White",56,4706315
+"Wyoming","Hispanic",2,58122
+"Wyoming","Native",2,12341
+"Wyoming","White",9,486586
