@@ -1,14 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 1000, 
-  "height": 500,
-  "title": "Proportion of Shootings per Ethnicity",
+  "width": 600, 
+  "height": 400,
+  "title": "Proportion of USA Shootings per Ethnicity",
   "data": {"url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/stacked_area/data/race_proportion.csv"},
   "mark": "area",
   "encoding": {
     "x": {
       "field": "Date",
       "type": "ordinal",
+      "axis": {"labelOverlap": true},
       "sort": {"field": "index"}
     },
     "y": {
