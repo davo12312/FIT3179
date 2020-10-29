@@ -1,1 +1,27 @@
-
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "US Police Shootings Age Distribution",
+  "height": 500,
+  "width": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/histogram/data/age.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Start",
+      "title": "Age",
+      "bin": {"binned": true, "step": 5}
+    },
+    "x2": {"field": "End"},
+    "y": {
+      "field": "Count",
+      "title": "Number of Shootings",
+      "type": "quantitative",
+      "scale": {"domain": [0, 900]}
+    },
+    "tooltip": [
+      {"field": "Count", "type": "quantitative", "title": "Shootings"}
+    ]
+  }
+}
