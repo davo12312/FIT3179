@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "US State Police Shootings per Capita(2015 - 2020)",
+  "title": "US State Police Shootings per Capita (2015 - 2020)",
   "height": 350,
   "width": 540,
   "data": {
