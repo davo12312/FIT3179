@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "US Police Shootings (2015 - 2020)",
+  "title": "US State Police Shootings (2015 - 2020)",
   "height": 350,
   "width": 540,
   "data": {
@@ -17,7 +17,7 @@
           "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/map/data/state_shootings.csv"
         },
         "key": "State",
-        "fields": ["shootings"]
+        "fields": ["Shootings per 100,000", "State Population", "Shootings"]
       }
     }
   ],
@@ -29,13 +29,19 @@
     },
   "encoding": {
     "color": {
-      "field": "shootings",
+      "field": "Shootings per 100,000",
       "type": "quantitative",
-      "scale": {"scheme": "reds"}
+      "scale": {
+        "scheme": "reds",
+        "domain": [0,5]
+      },
+      "title": "Shootings per Capita"
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "State"},
-      {"field": "shootings", "type": "quantitative"}
+      {"field": "Shootings per 100,000", "type": "quantitative", "title": "Police Shootings per Capita", "format": ".2f"},
+      {"field": "Shootings", "title": "Total Police Shootings"},
+      {"field": "State Population", "title": "State Population", "format": ","}
     ]
   }
 }
