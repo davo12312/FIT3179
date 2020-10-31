@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "US Police Shootings (2015 - 2020)",
   "width": 540,
-  "height": 400,
+  "height": 350,
   "data": {
     "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/map/js/USA.json",
     "format": {
