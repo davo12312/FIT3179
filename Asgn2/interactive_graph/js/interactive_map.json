@@ -137,6 +137,9 @@
       {"filter": "datum.Population > Population_Above"}
    ],
   "selection": {
+    "grid": {
+      "type": "interval", "bind": "scales"
+    },
       "continent_highlight": {
       "type": "multi",
       "fields": ["Race"],
@@ -169,11 +172,11 @@
           "White"
         ],
         "range": [
-          "#e41a1c",
-          "#984ea3",
-          "#ff7f00",
-          "#a6cee3",
-          "#377eb8"
+          "#4cc9f0",
+          "#457b9d",
+          "#8338ec",
+          "#1d3557",
+          "#d90429"
         ]
       }
     },
@@ -187,7 +190,7 @@
       "scale": {
         "type": "threshold",
         "domain": [1000000, 10000000],
-        "range": [50, 100, 150]
+        "range": [50, 200, 450]
       },
       "legend": {"format": ".1s"}
     },
@@ -200,5 +203,4 @@
     ]
   }
 }
-
 
