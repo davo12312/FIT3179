@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "US Police Shootings Age Distribution",
-  "height": 400,
+  "height": 350,
   "width": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/histogram/data/age.csv"
