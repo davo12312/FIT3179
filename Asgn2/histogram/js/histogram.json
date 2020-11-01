@@ -4,7 +4,7 @@
   "height": 350,
   "width": 500,
   "data": {
-    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/histogram/data/age.csv"
+    "url": "https://raw.githubusercontent.com/davo12312/FIT3179/main/Asgn2/histogram/data/age-gender.csv"
   },
   "mark": "bar",
   "encoding": {
@@ -20,8 +20,17 @@
       "type": "quantitative",
       "scale": {"domain": [0, 900]}
     },
+    "color": {
+      "field": "Gender",
+      "type": "nominal",
+      "scale": {
+        "domain": ["M","F"],
+        "range": ["#c81d25", "#3d5a80"]
+      }
+    },
     "tooltip": [
-      {"field": "Count", "type": "quantitative", "title": "Shootings"}
+      {"field": "Count", "type": "quantitative", "title": "Shootings"},
+      {"field": "Gender"}
     ]
   }
 }
