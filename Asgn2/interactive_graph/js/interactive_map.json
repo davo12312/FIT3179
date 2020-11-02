@@ -162,6 +162,7 @@
     },
     "color": {
       "field": "Race",
+      "title": "Ethnicity",
       "type": "nominal",
       "scale": {
         "domain": [
